@@ -1,3 +1,3 @@
 package scalaz
 
-package object agent extends Agents
+package object agent extends Agents with StreamingAgents

@@ -15,7 +15,8 @@ object ApplicationBuild extends Build {
     //fork := true,
     libraryDependencies ++= Seq(
       "org.scalaz" %% "scalaz-core" % "7.0.1",
-      "org.scalaz.stream" %% "scalaz-stream" % "0.3.1"
+      "org.scalaz.stream" %% "scalaz-stream" % "0.3.1",
+      "org.scalacheck" %% "scalacheck" % "1.10.0" % "test"
     )
   )
 
